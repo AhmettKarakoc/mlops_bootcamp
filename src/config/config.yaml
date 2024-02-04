@@ -1,0 +1,38 @@
+dev:
+  env_identifier: "dev"
+  env_explanation: "DEVELOPMENT"
+  db_prefix: "mlops_bootcamp_dev"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-mlops_bootcamp-dev"
+  elastic_index: "mlops_bootcamp_dev"
+  kafka_topic: "mlops_bootcamp_dev"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+qa:
+  env_identifier: "qa"
+  env_explanation: "QA"
+  db_prefix: "mlops_bootcamp_qa"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-mlops_bootcamp-qa"
+  elastic_index: "mlops_bootcamp_qa"
+  kafka_topic: "mlops_bootcamp_qa"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+prod:
+  env_identifier: "prod"
+  env_explanation: "PRODUCTION"
+  db_prefix: "mlops_bootcamp_prod"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-mlops_bootcamp-prod"
+  elastic_index: "mlops_bootcamp_prod"
+  kafka_topic: "mlops_bootcamp_prod"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
